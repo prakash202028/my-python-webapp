@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-python-webapp
+spec:
+  containers:
+    - name: my-python-webapp
+      image: sana03/python-webapp:0.0.1
+      ports:
+        - containerPort: 5000
